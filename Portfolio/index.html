@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, 
+        offset: 100, 
+        once: true, 
+      });
+    </script>
+  </head>
+  <body>
+    <header id="header" data-aos="zoom-in">
+      <img
+        src="./images/p.webp"
+      />
+      <h1>Prashant</h1>
+      <div>
+        <p class="tagline">
+          <i>- You have a purpose to connect with your deepest self</i>
+        </p>
+        <hr />
+      </div>
+    </header>
+    <main>
+      <div id="sidebar" class="flex">
+        <a href="#header" data-tooltip="header" style="color: white; font-weight: bold; font-size: 20px;">P</a>
+
+
+        <a href="#home" data-tooltip="home"
+          ><i class="fa-solid fa-house"></i
+        ></a>
+        <a href="#about" data-tooltip="about"
+          ><i class="fa-solid fa-user"></i
+        ></a>
+        <a href="#skills" data-tooltip="skills"
+          ><i class="fa-solid fa-code"></i
+        ></a>
+        <a href="projects" data-tooltip="projects"
+          ><i class="fa-solid fa-building"></i
+        ></a>
+        <a href="resume" data-tooltip="resume"
+          ><i class="fa-solid fa-file"></i
+        ></a>
+        <a href="#contact" data-tooltip="contact"
+          ><i class="fa-solid fa-phone"></i
+        ></a>
+        <a href="#footer" data-tooltip="footer"
+          ><i class="fa-solid fa-copyright"></i
+        ></a>
+      </div>
+
+        
+   <div class="about-section flex" data-aos="zoom-in">
+      <div class="profile-pic-wrapper flex">
+            <div class="profile-border"></div>
+            <img src="./images/myphoto.jpg" alt="Profile Picture" class="profile-pic" />
+      </div>
+
+     <div class="about-card">
+          <p>
+      I'm a 3rd-year Computer Science student passionate
+      about building real things — from web apps to systems
+      that solve problems. I learn, build, share, and stay
+      curious and I explore web dev, system design, and
+      GenAI and I read to understand the world better. I
+      don't just want a career; I want to contribute to
+      something that improves the way our systems work.
+      </p>
+  </div>
+</div>
+
+
+      <div id="skills" data-aos="zoom-in">
+        <h2><u>Skills</u></h2>
+        <hr id="sep" />
+        <ul>
+          <li>
+            Programmin Languages
+            <ul>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+            </ul>
+          </li>
+          <li>Data Structure and Algorithms</li>
+          <li>System Design</li>
+          <li>Generative AI</li>
+        </ul>
+      </div>
+
+      <section>
+        <div id="projects" data-aos="fade-up" data-aos-delay="200">
+          <h1 class="title">My Projects Collection</h1>
+          <hr />
+
+          <div class="projects-container">
+            <div class="project-card">
+              <img src="./images/astrology.jpg" alt="Astrology Insight" />
+              <h3>Astrology Insight</h3>
+              <p>Get daily astrology insights with a fun UI.</p>
+              <a href="https://htmlpreview.github.io/?https://github.com/prashantkumar434680/Astrology_Project/blob/main/index1.html" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/exgf.webp" alt="Background Changer" />
+              <h3>Ex-GF chatting</h3>
+              <p>you can chat with your EX-GF.</p>
+              <a href="https://htmlpreview.github.io/?https://github.com/prashantkumar434680/ExGFChatting-/blob/main/first.html" target="_blank"
+                >View Project</a
+              >
+            </div>
+
+            <div class="project-card">
+              <img src="./images/calculator.jpg" alt="Calculator" />
+              <h3>Calculator</h3>
+              <p>A simple calculator with basic functionality.</p>
+              <a href="https://htmlpreview.github.io/?https://github.com/prashantkumar434680/Calculator/blob/main/index.html" target="_blank">View Project</a>
+            </div>
+
+
+            <div class="project-card">
+              <img src="./images/funny.jpg" alt="Quiz" />
+              <h3>funny project</h3>
+              <p>A short project using html css.</p>
+              <a href="https://funnyprojectprashant.netlify.app/" target="_blank">View Project</a>
+            </div>
+
+       
+            <div class="project-card">
+              <img src="./images/tic-tac-toe.jpg" alt="Tic Tac Toe" />
+              <h3>Tic Tac Toe</h3>
+              <p>Play the classic game with simple UI.</p>
+              <a href="https://tictactoegamesprashant.netlify.app/" target="_blank"
+                >View Project</a
+              >
+            </div>
+
+            <div class="project-card">
+              <img src="./images/expense.png" alt="Weather" />
+              <h3>Expense Tracker</h3>
+              <p>Enter your daily expenses</p>
+              <a href="https://expensetrackerbyprashant.netlify.app/" target="_blank"
+                >View Project</a
+              >
+            </div>
+
+           
+          </div>
+        </div>
+      </section>
+
+    <div id="last" data-aos="zoom-in" class="flex">
+      <aside>
+          <div id="contact" data-aos="zoom-in" class="flex">
+            <div class="items flex">
+              <ul>
+                <li>Mob No. - 7850094523</li>
+                <li>email - prashantjat622@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+   
+        <div id="resume" class="flex" data-aos="zoom-in">
+          <div class="items flex" id="d">
+            <h1>Resume</h1>
+            <a href="./images/PRASHANT_RESUME.pdf" download="Prashant.pdf">
+              <button id="rbutton">Download Resume</button>
+            </a>
+          </div>
+        </div>
+    </div>
+        
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer">
+        <p>Copyright © 2025 by Prashant | All rights reserved.</p>
+        <div id="links">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/prashant-choudhary-5458ba31b"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/prashantkumar434680"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a target="_blank" href="https://x.com/Ba_lr_am">
+            <i class="fa-solid fa-x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
